@@ -14,6 +14,28 @@ public class FirstKarel extends Karel {
 
 	public void run() {
 		// your code goes here...
+		move();
+		move();
+		pickBeeper();
+		turnLeft();
+		move();
+		turnAround();
+		move();
+		move();
+		putBeeper();
 		
 	}
+	
+	public void turnRight() {
+		turnLeft();
+		turnLeft();
+		turnLeft();
+	}
+	public void turnAround() {
+		turnLeft();
+		turnLeft();
+	}
+	
+	
 }
+
