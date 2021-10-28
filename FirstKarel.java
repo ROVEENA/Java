@@ -13,7 +13,7 @@ import stanford.karel.Karel;
 public class FirstKarel extends Karel {
 
 	public void run() {
-		// your code goes here...
+		// your code goes here....
 		move();
 		move();
 		pickBeeper();
