@@ -13,7 +13,15 @@ import stanford.karel.Karel;
 public class RobinHoodKarel extends Karel {
 
 	public void run() {
-		// your code goes here...
+		while(frontIsClear())
+		{
+			if (noBeepersPresent())
+				putBeeper();
+			else
+				pickBeeper();
+			move();
+		}
 		
 	}
+
 }

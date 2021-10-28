@@ -16,4 +16,9 @@ public class WallKarel extends Karel {
 		// your code goes here...
 		
 	}
+	public void moveToWall() {
+		while(frontIsClear()){
+			move();
+		}
+	}
 }
