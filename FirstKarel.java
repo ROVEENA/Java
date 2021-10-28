@@ -17,6 +17,8 @@ public class FirstKarel extends Karel {
 		move();
 		move();
 		pickBeeper();
+		turnLeft();
+		move();
 		turnRight();
 		move();
 		move();
